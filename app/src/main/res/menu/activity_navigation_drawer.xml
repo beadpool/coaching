@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_Studentlist"
+            android:icon="@drawable/ic_grade_star"
+            android:title="Student List"/>
+        <item
+            android:id="@+id/nav_feeslist"
+            android:icon="@drawable/ic_conte_fees"
+            android:title="Manage Fess List" />
+       <item
+            android:id="@+id/nav_stutflist"
+            android:icon="@drawable/ic_grade_star"
+            android:title="Manage Stuff List" />
+
+        <item
+            android:id="@+id/nav_dingationlist"
+            android:icon="@drawable/ic_grade_star"
+            android:title="Manage Degination List" />
+
+        <item
+            android:id="@+id/nav_classlist"
+            android:icon="@drawable/ic_grade_star"
+            android:title="Manage class List" />
+        <item
+            android:id="@+id/nav_managesublect"
+            android:icon="@drawable/ic_grade_star"
+            android:title="Manage Subject" />
+
+
+    </group>
+
+
+
+</menu>
